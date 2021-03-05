@@ -33,4 +33,4 @@ jobs:
         run:  npm install --global surge
         
       - name: deploying site throw surge
-        run: surge ./ shaikhmubashir.surge.sh --token ${{ secrets.MUBASHIR }}
+        run: surge ./ shaikhmubashir.surge.sh --token ${{ secrets.MUBAHSIR }}
