@@ -34,5 +34,5 @@ jobs:
         
       - name: deploying site throw surge
         run: surge ./ shaikhmubashir.surge.sh --token ${{ secrets.MUBASHIR }}
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          #echo Add other actions to build,
+          #echo test, and deploy your project.
